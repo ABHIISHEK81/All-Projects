@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span id="menuBtn" style="font-size:24px;cursor:pointer;margin-right:16px;">&#9776;</span>
+            <h1>YouTube <span>Clone</span></h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search">
+            <button id="searchBtn">&#128269;</button>
+        </div>
+        <div class="header-icons">
+            <span title="Upload" style="font-size:22px;cursor:pointer;margin-right:18px;">&#128228;</span>
+            <span title="Notifications" style="font-size:22px;cursor:pointer;margin-right:18px;">&#128276;</span>
+            <img src="https://www.svgrepo.com/show/384674/account-avatar-profile-user-11.svg" alt="User" class="user-avatar">
+        </div>
+    </header>
+    <nav class="trending-bar">
+        <span>All</span>
+        <span>Music</span>
+        <span>Gaming</span>
+        <span>News</span>
+        <span>Live</span>
+        <span>Sports</span>
+        <span>Learning</span>
+        <span>Fashion</span>
+    </nav>
+    <div class="container">
+        <aside>
+            <ul>
+                <li><a href="#"><span style="font-size:18px;">🏠</span> Home</a></li>
+                <li><a href="#"><span style="font-size:18px;">🔥</span> Trending</a></li>
+                <li><a href="#"><span style="font-size:18px;">📺</span> Subscriptions</a></li>
+                <li><a href="#"><span style="font-size:18px;">📚</span> Library</a></li>
+            </ul>
+        </aside>
+        <main>
+            <section id="video-list" class="video-grid">
+                <!-- Video items will be dynamically inserted here -->
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2025 YouTube Clone. All rights reserved.</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
